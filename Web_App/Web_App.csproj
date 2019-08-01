@@ -184,6 +184,7 @@
     <Compile Include="Controllers\BriefsController.cs" />
     <Compile Include="Controllers\CertificateController.cs" />
     <Compile Include="Controllers\ReportController.cs" />
+    <Compile Include="Controllers\TransferController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Fonts\font-awesome\css\font-awesome.min.css" />
@@ -311,6 +312,7 @@
     <Content Include="Scripts\esm\popper-utils.js" />
     <Content Include="Views\Briefs\History.cshtml" />
     <Content Include="Views\Report\Timekeeping.cshtml" />
+    <Content Include="Views\Transfer\Select.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -319,6 +321,7 @@
     <Folder Include="Views\Briefs\" />
     <Folder Include="Views\Certificate\" />
     <Folder Include="Views\Report\" />
+    <Folder Include="Views\Transfer\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

@@ -185,6 +185,7 @@
     <Compile Include="Controllers\CertificateController.cs" />
     <Compile Include="Controllers\ReportController.cs" />
     <Compile Include="Controllers\TransferController.cs" />
+    <Compile Include="Controllers\ListController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Fonts\font-awesome\css\font-awesome.min.css" />
@@ -313,6 +314,16 @@
     <Content Include="Views\Briefs\History.cshtml" />
     <Content Include="Views\Report\Timekeeping.cshtml" />
     <Content Include="Views\Transfer\Select.cshtml" />
+    <Content Include="Views\List\List9.cshtml" />
+    <Content Include="Views\List\List5.cshtml" />
+    <Content Include="Views\List\List7.cshtml" />
+    <Content Include="Views\List\List3.cshtml" />
+    <Content Include="Views\List\List1.cshtml" />
+    <Content Include="Views\List\List8.cshtml" />
+    <Content Include="Views\List\List4.cshtml" />
+    <Content Include="Views\List\List6.cshtml" />
+    <Content Include="Views\List\List2.cshtml" />
+    <Content Include="Views\List\List10.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

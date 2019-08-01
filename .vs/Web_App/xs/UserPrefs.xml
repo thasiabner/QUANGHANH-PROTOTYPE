@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{59A74D56-7100-4BE4-9A11-DA6BBE58CBA8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Web_App/Views/Transfer/Select.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Web_App/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="Web_App/Views/Shared/_Layout.cshtml" Line="125" Column="62" />
+      <File FileName="Web_App/Views/Shared/_Layout.cshtml" Line="150" Column="8" />
       <File FileName="Web_App/Views/Report/TimeKeeping.cshtml" />
-      <File FileName="Web_App/Views/Transfer/Select.cshtml" Line="10" Column="6" />
+      <File FileName="Web_App/Views/Transfer/Select.cshtml" />
       <File FileName="Web_App/Controllers/TransferController.cs" />
     </Files>
     <Pads>
@@ -11,17 +11,17 @@
         <State name="__root__">
           <Node name="Web_App" expanded="True">
             <Node name="Web_App" expanded="True">
-              <Node name="Assets" expanded="True" />
-              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Report" expanded="True" />
-                <Node name="Transfer" expanded="True">
-                  <Node name="Select.cshtml" selected="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
                 </Node>
               </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

@@ -112,37 +112,48 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-list"></i> Theo dõi, lịch sử, khấu hao<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-list"></i> Phòng CĐVT<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="/List/List1"><i class="fa"></i> Chi tiết khấu hao thiết bị</a>
+                                    <a href="/List/Chi_tiet_khau_hao_thiet_bi"><i class="fa"></i> Chi tiết khấu hao thiết bị</a>
                                 </li>
                                 <li>
-                                    <a href="/List/List2"><i class="fa"></i> Chi tiết sự cố</a>
+                                    <a href="/List/Chi_tiet_su_co"><i class="fa"></i> Chi tiết sự cố</a>
                                 </li>
                                 <li>
-                                    <a href="/List/List3"><i class="fa"></i> Lịch sử chung sự cố</a>
+                                    <a href="/List/Lich_su_chung_su_co"><i class="fa"></i> Lịch sử chung sự cố</a>
                                 </li>
                                 <li>
-                                    <a href="/List/List4"><i class="fa"></i> Theo dõi bảo hành</a>
+                                    <a href="/List/Theo_doi_bao_hanh"><i class="fa"></i> Theo dõi bảo hành</a>
                                 </li>
                                 <li>
-                                    <a href="/List/List5"><i class="fa"></i> Theo dõi bảo hành kỳ hạn</a>
+                                    <a href="/List/Theo_doi_bao_hiem_ky_han"><i class="fa"></i> Theo dõi bảo hiểm kỳ hạn</a>
                                 </li>
                                 <li>
-                                    <a href="/List/List6"><i class="fa"></i> Theo dõi chi tiết thiết bị</a>
+                                    <a href="/List/Theo_doi_chi_tiet_thiet_bi"><i class="fa"></i> Theo dõi chi tiết thiết bị</a>
                                 </li>
                                 <li>
-                                    <a href="/List/List7"><i class="fa"></i> Theo dõi chung sự cố và chi tiết</a>
+                                    <a href="/List/Theo_doi_chung_su_co_va_chi_tiet"><i class="fa"></i> Theo dõi chung sự cố và chi tiết</a>
                                 </li>
                                 <li>
-                                    <a href="/List/List8"><i class="fa"></i> Theo dõi kiểm định</a>
+                                    <a href="/List/Theo_doi_kiem_dinh"><i class="fa"></i> Theo dõi kiểm định</a>
                                 </li>
                                 <li>
-                                    <a href="/List/List9"><i class="fa"></i> Theo dõi nhiên liệu</a>
+                                    <a href="/List/Theo_doi_nhien_lieu"><i class="fa"></i> Theo dõi nhiên liệu</a>
                                 </li>
                                 <li>
-                                    <a href="/List/List10"><i class="fa"></i> Theo dõi thiết bị hết khấu hao</a>
+                                    <a href="/List/Theo_doi_thiet_bi_het_khau_hao"><i class="fa"></i> Theo dõi thiết bị hết khấu hao</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-list"></i> Phòng KCS<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/KCS/Add"><i class="fa fa-list fa-fw"></i>Thêm nhập xuất than</a>
+                                </li>
+                                <li>
+                                    <a href="/KCS/List"><i class="fa fa-list fa-fw"></i>Danh sách nhập xuất than</a>
                                 </li>
                             </ul>
                         </li>
@@ -161,6 +172,27 @@
                 <div class="col-lg-12">
                     @RenderBody()
                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- Delete Modal HTML -->
+    <div id="delete" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Xóa bản ghi</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Bạn có muốn xóa dữ liệu của bản ghi này không?</p>
+                        <p class="text-warning"><small>Hành động này không thể khôi phục được</small></p>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Quay trở về">
+                        <input type="submit" class="btn btn-danger" value="Xóa">
+                    </div>
+                </form>
             </div>
         </div>
     </div>

@@ -9,52 +9,52 @@ namespace Web_App.Controllers
     public class ListController : Controller
     {
         // GET: List
-        public ActionResult List1()
+        public ActionResult Chi_tiet_khau_hao_thiet_bi()
         {
             return View();
         }
 
-        public ActionResult List2()
+        public ActionResult Chi_tiet_su_co()
         {
             return View();
         }
 
-        public ActionResult List3()
+        public ActionResult Lich_su_chung_su_co()
         {
             return View();
         }
 
-        public ActionResult List4()
+        public ActionResult Theo_doi_bao_hanh()
         {
             return View();
         }
 
-        public ActionResult List5()
+        public ActionResult Theo_doi_bao_hiem_ky_han()
         {
             return View();
         }
 
-        public ActionResult List6()
+        public ActionResult Theo_doi_chi_tiet_thiet_bi()
         {
             return View();
         }
 
-        public ActionResult List7()
+        public ActionResult Theo_doi_chung_su_co_va_chi_tiet()
         {
             return View();
         }
 
-        public ActionResult List8()
+        public ActionResult Theo_doi_kiem_dinh()
         {
             return View();
         }
 
-        public ActionResult List9()
+        public ActionResult Theo_doi_nhien_lieu()
         {
             return View();
         }
 
-        public ActionResult List10()
+        public ActionResult Theo_doi_thiet_bi_het_khau_hao()
         {
             return View();
         }

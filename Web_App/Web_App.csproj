@@ -163,6 +163,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KCSController.cs" />
     <Compile Include="Controllers\ProvincesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -322,16 +323,16 @@
     <Content Include="Views\Briefs\History.cshtml" />
     <Content Include="Views\Report\Timekeeping.cshtml" />
     <Content Include="Views\Transfer\Select.cshtml" />
-    <Content Include="Views\List\List9.cshtml" />
-    <Content Include="Views\List\List5.cshtml" />
-    <Content Include="Views\List\List7.cshtml" />
-    <Content Include="Views\List\List3.cshtml" />
-    <Content Include="Views\List\List1.cshtml" />
-    <Content Include="Views\List\List8.cshtml" />
-    <Content Include="Views\List\List4.cshtml" />
-    <Content Include="Views\List\List6.cshtml" />
-    <Content Include="Views\List\List2.cshtml" />
-    <Content Include="Views\List\List10.cshtml" />
+    <Content Include="Views\List\Theo_doi_nhien_lieu.cshtml" />
+    <Content Include="Views\List\Theo_doi_bao_hiem_ky_han.cshtml" />
+    <Content Include="Views\List\Theo_doi_chung_su_co_va_chi_tiet.cshtml" />
+    <Content Include="Views\List\Lich_su_chung_su_co.cshtml" />
+    <Content Include="Views\List\Chi_tiet_khau_hao_thiet_bi.cshtml" />
+    <Content Include="Views\List\Theo_doi_kiem_dinh.cshtml" />
+    <Content Include="Views\List\Theo_doi_bao_hanh.cshtml" />
+    <Content Include="Views\List\Theo_doi_chi_tiet_thiet_bi.cshtml" />
+    <Content Include="Views\List\Chi_tiet_su_co.cshtml" />
+    <Content Include="Views\List\Theo_doi_thiet_bi_het_khau_hao.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -391,6 +392,9 @@
     <None Include="Scripts\esm\popper.js.map" />
     <None Include="Scripts\esm\popper-utils.min.js.map" />
     <None Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="Views\KCS\Add.cshtml" />
+    <Content Include="Views\KCS\Detail.cshtml" />
+    <Content Include="Views\KCS\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />

@@ -56,39 +56,53 @@
                         <th>Tình trạng sức khỏe</th>
                         <th></th>
                     </tr>
-                    <tr>
+                    <tr style="height: 50px;">
                         <td id="stt">1</td>
                         <td id="maso">2179</td>
                         <td id="ten">Nguyễn Xuân Thoảng</td>
                         <td id="phanxuong">Phân xưởng cơ khí</td>
                         <td id="chucvu">Thợ Sửa chữa</td>
                         <td><button class="btn btn-warning btn-sm" disabled>Tốt</button></td>
-                        <td><button id="buttonChon" class="btn btn-custom" value="2179">Chọn</button></td>
+                        <td><button id="buttonChon" class="2179 btn btn-custom">Chọn</button></td>
                     </tr>
-                    <tr>
+                    <tr style="height: 50px;">
                         <td>2</td>
                         <td>7751</td>
                         <td>Nguyễn Văn Hùng</td>
                         <td>Phân xưởng phục vụ</td>
                         <td>Kế toán</td>
                         <td><button class="btn btn-warning btn-sm" disabled>Tốt</button></td>
-                        <td><button id="buttonChon" class="btn btn-custom" value="7751">Chọn</button></td>
+                        <td><button id="buttonChon" class="7751 btn btn-custom">Chọn</button></td>
                     </tr>
-                    <tr>
+                    <tr style="height: 50px;">
                         <td>3</td>
                         <td>3506</td>
                         <td>Nguyễn Văn Hùng</td>
                         <td>Phân xưởng đào lò</td>
                         <td>Kế toán</td>
                         <td><button class="btn btn-warning btn-sm" disabled>Tốt</button></td>
-                        <td><button id="buttonChon" class="btn btn-custom" value="3506">Chọn</button></td>
+                        <td><button id="buttonChon" class="3506 btn btn-custom">Chọn</button></td>
+                    </tr>
+                    <tr style="height: 50px;">
+                        <td>4</td>
+                        <td>2041</td>
+                        <td>Nguyễn Văn Hưng</td>
+                        <td>Phân xưởng xây dựng</td>
+                        <td>Kế toán</td>
+                        <td><button class="btn btn-warning btn-sm" disabled>Tốt</button></td>
+                        <td><button id="buttonChon" class="2041 btn btn-custom">Chọn</button></td>
                     </tr>
                 </table>
             </div>
         </div>
     </div>
 
-    <div id="table-wrapper2">
+    <div id="table2" class="well well-md" hidden="hidden">
+        <div class="row">
+            <div id="table-wrapper2">
+
+            </div>
+        </div>
     </div>
 </div>
 <script>
@@ -98,10 +112,14 @@
     var col3;
     var col4;
     var x;
+
     $(document).ready(function () {
         $("#myTable").on('click', '#buttonChon', function () {
+            //visible the table with style well-md
+            $("#table2").removeAttr('hidden');
+
             //invisibile when the first loading, visible when user choose button "Chọn"
-            var outlineTable = "<table id='myTable2' class='table table-hover'><thead><tr><th>Mã nhân viên</th><th>Họ và tên</th><th>Phân xưởng hiện tại</th><th>Chức vụ hiện tại</th><th></th></tr></thead><tbody id='body-table-wrapper2'></tbody><tr id='buttonTienHanhDieuChuyen'></tr></table>";
+            var outlineTable = "<table id='myTable2' class='table table-hover'><thead><tr><th>Mã nhân viên</th><th>Họ và tên</th><th>Phân xưởng hiện tại</th><th>Chức vụ hiện tại</th><th></th></tr></thead><tbody id='body-table-wrapper2'></tbody><tr id='buttonTienHanhDieuChuyen'></tr>";
             var count = $("#table-wrapper2 > table").length;
             if (count == 0) {
                 $("#table-wrapper2").html(outlineTable);
@@ -118,16 +136,13 @@
             col3 = currentRow.find("td:eq(3)").text();
             col4 = currentRow.find("td:eq(4)").text();
 
-            $("#body-table-wrapper2").append("<tr id='" + col1 + "'><td>" + col1 + "</td><td>" + col2 + "</td><td>" + col3 + "</td><td>" + col4 + "</td><td><button id='buttonBoChon' class='btn btn-custom' value='" + col1 + "'>Bỏ chọn</button></td></tr>");
+            $("#body-table-wrapper2").append("<tr style='height: 50px;' id='" + col1 + "'><td>" + col1 + "</td><td>" + col2 + "</td><td>" + col3 + "</td><td>" + col4 + "</td><td><button id='buttonBoChon' class='btn btn-custom' value='" + col1 + "'>Bỏ chọn</button></td></tr>");
             $("#buttonTienHanhDieuChuyen").html("<td></td><td></td><td></td><td></td><td><button class='btn btn-custom'>Tiến hành điều động</button></td>");
 
             //remove row when click "Bỏ Chọn" and check if remove all then table will be invisible
-            $('#myTable2').on('click', '#buttonBoChon', function () {
-
+            $("#myTable2").on('click', '#buttonBoChon', function () {
                 //enabled button "Chọn" when click "Bỏ Chọn"
-                //if ($(this).val() == $("#buttonChon").val()) {
-                //    $("#buttonChon").removeAttr('disabled','disabled');
-                //}
+                $("." + $(this).val() + "").removeAttr("disabled");
 
                 //remove the row clicked "Bỏ Chọn"
                 x = $(this).closest("tr").find("td:eq(0)").text();
@@ -138,10 +153,11 @@
                 if (count == 0) {
                     $("#buttonTienHanhDieuDong").html("");
                     $("#table-wrapper2").html("");
+                    $("#table2").attr('hidden', 'hidden');
                 }
-
             });
         });
+
     });
 </script>
 

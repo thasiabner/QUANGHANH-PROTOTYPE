@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{D1B22A2B-16A5-46E4-97DD-BE370E9A7633}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QUANGHANHCORE/Views/Shared/_Layout_CDVT.cshtml">
+    <Files>
+      <File FileName="QUANGHANHCORE/Controllers/LongInController.cs" Line="14" Column="31" />
+      <File FileName="QUANGHANHCORE/Views/Shared/_Layout_CDVT.cshtml" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QUANGHANHCORE" expanded="True">
+            <Node name="QUANGHANHCORE" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="KCS" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="CDVT" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout_CDVT.cshtml" selected="True" />
+                </Node>
+                <Node name="TCLD" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.QUANGHANHCORE PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -72,7 +72,7 @@ using QUANGHANHCORE.Models;
             WriteLiteral("\r\n<html>\r\n");
             EndContext();
             BeginContext(160, 586, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b78a07eb19004ee2ab4c3d1d4be6ac5a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e76a0edecf2c49598bb6cf2382ad1165", async() => {
                 BeginContext(166, 573, true);
                 WriteLiteral(@"
     <link href=""../../assets/libs/chartist/dist/chartist.min.css"" rel=""stylesheet"">
@@ -105,7 +105,7 @@ using QUANGHANHCORE.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(748, 3640, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8cd21b5ccd854b8e852504fc64a850d3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1e09c62015df4e5180422c921729204b", async() => {
                 BeginContext(754, 280, true);
                 WriteLiteral(@"
     <!-- Form-->
@@ -119,7 +119,7 @@ using QUANGHANHCORE.Models;
                 ");
                 EndContext();
                 BeginContext(1034, 730, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b81a3a64324c4b798af86f7a75b77f0e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5a57b10f32c42ee8d7ddc8109ef0dda", async() => {
                     BeginContext(1065, 482, true);
                     WriteLiteral(@"
                     <div class=""form-group""><label for=""username"">TÊN ĐĂNG NHẬP</label><input @*id=""username"" type=""text"" name=""username""*@ /></div>
@@ -153,7 +153,7 @@ using QUANGHANHCORE.Models;
                 WriteLiteral("        <div class=\"col-md-3\">\r\n            <select id=\"ddlViewBy\" class=\"form-control\" placeholder=\"Chọn hoặc nhập phòng ban\">\r\n                ");
                 EndContext();
                 BeginContext(2967, 39, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4025c03527584c1d96a5f1c1a6a4c0cd", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3054014de8e44c4b8d4242fd6cacdd23", async() => {
                     BeginContext(2988, 9, true);
                     WriteLiteral("Phòng KCS");
                     EndContext();
@@ -175,7 +175,7 @@ using QUANGHANHCORE.Models;
                 WriteLiteral("\r\n                ");
                 EndContext();
                 BeginContext(3024, 61, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bffa2280075d48c5982f182dfe498968", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4ef6cb476ce74b62b639a1d1dbae8393", async() => {
                     BeginContext(3066, 10, true);
                     WriteLiteral("Phòng CĐVT");
                     EndContext();
@@ -198,7 +198,7 @@ using QUANGHANHCORE.Models;
                 WriteLiteral("\r\n                ");
                 EndContext();
                 BeginContext(3103, 41, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36915d878cd748239703bdfda3243c47", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5944bdb9a69f4f73b916b96eece26c71", async() => {
                     BeginContext(3125, 10, true);
                     WriteLiteral("Phòng TCLĐ");
                     EndContext();

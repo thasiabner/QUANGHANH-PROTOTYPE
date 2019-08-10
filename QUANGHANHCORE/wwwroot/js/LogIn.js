@@ -27,8 +27,10 @@ $(document).ready(function() {
     $('#loginButton').click(() => {
         var e = document.getElementById("ddlViewBy");
         var strUser = e.options[e.selectedIndex].value;
-        console.log(strUser);
-        $('#loginButton').attr('href', 'https://localhost:5001' + strUser);
+        var url      = window.location.href;
+        var re = /[0-9]+/
+        var host = url.match(re)
+        $('#loginButton').attr('href', 'https://localhost:'+host[0]+strUser);
     });
 });
 

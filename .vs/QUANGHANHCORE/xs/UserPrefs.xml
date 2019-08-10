@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{D1B22A2B-16A5-46E4-97DD-BE370E9A7633}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="QUANGHANHCORE/Views/Shared/_Layout_CDVT.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QUANGHANHCORE/wwwroot/js/LogIn.js">
     <Files>
-      <File FileName="QUANGHANHCORE/Controllers/LongInController.cs" Line="14" Column="31" />
-      <File FileName="QUANGHANHCORE/Views/Shared/_Layout_CDVT.cshtml" Line="8" Column="1" />
+      <File FileName="QUANGHANHCORE/Views/Shared/_Layout_CDVT.cshtml" Line="203" Column="10" />
+      <File FileName="QUANGHANHCORE/wwwroot/js/LogIn.js" Line="38" Column="1" />
+      <File FileName="QUANGHANHCORE/Program.cs" Line="17" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,11 +17,13 @@
                 <Node name="KCS" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
-                <Node name="CDVT" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout_CDVT.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
                 <Node name="TCLD" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True">
+                  <Node name="LogIn.js" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

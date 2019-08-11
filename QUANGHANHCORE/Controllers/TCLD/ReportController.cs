@@ -17,7 +17,7 @@ namespace QUANGHANHCORE.Controllers.TCLD
         }
 		public IActionResult Monthly()
 		{
-			return View();
-		}
+            return View("Views/TCLD/Report/Monthly.cshtml");
+        }
 	}
 }

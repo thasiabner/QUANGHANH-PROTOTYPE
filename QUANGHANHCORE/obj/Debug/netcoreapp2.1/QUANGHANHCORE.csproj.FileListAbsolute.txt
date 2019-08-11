@@ -31,9 +31,9 @@
 /Users/duynguyen/Projects/QUANGHANHCORE/QUANGHANHCORE/obj/Debug/netcoreapp2.1/QUANGHANHCORE.pdb
 /Users/duynguyen/Projects/QUANGHANHCORE/QUANGHANHCORE/obj/Debug/netcoreapp2.1/QUANGHANHCORE.csproj.CopyComplete
 /Users/duynguyen/Projects/QUANGHANHCORE/QUANGHANHCORE/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout_CDVT.g.cshtml.cs
-/Users/duynguyen/Projects/QUANGHANHCORE/QUANGHANHCORE/obj/Debug/netcoreapp2.1/Razor/Views/Report/Monthly.g.cshtml.cs
 /Users/duynguyen/Projects/QUANGHANHCORE/QUANGHANHCORE/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout_TCLD.g.cshtml.cs
 /Users/duynguyen/Projects/QUANGHANHCORE/QUANGHANHCORE/obj/Debug/netcoreapp2.1/Razor/Views/TCLD/Index.g.cshtml.cs
 /Users/duynguyen/Projects/QUANGHANHCORE/QUANGHANHCORE/obj/Debug/netcoreapp2.1/Razor/Views/CDVT/Index.g.cshtml.cs
 /Users/duynguyen/Projects/QUANGHANHCORE/QUANGHANHCORE/obj/Debug/netcoreapp2.1/Razor/Views/LogIn/Index.g.cshtml.cs
 /Users/duynguyen/Projects/QUANGHANHCORE/QUANGHANHCORE/obj/Debug/netcoreapp2.1/Razor/Views/KCS/Index.g.cshtml.cs
+/Users/duynguyen/Projects/QUANGHANHCORE/QUANGHANHCORE/obj/Debug/netcoreapp2.1/Razor/Views/TCLD/Report/Monthly.g.cshtml.cs

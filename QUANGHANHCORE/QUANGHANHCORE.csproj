@@ -21,10 +21,10 @@
     <Folder Include="Controllers\CDVT\" />
     <Folder Include="Controllers\KCS\" />
     <Folder Include="Controllers\DIEUKHIEN\" />
-    <Folder Include="Views\Report\" />
     <Folder Include="Views\TCLD\" />
     <Folder Include="Views\CDVT\" />
     <Folder Include="Views\LogIn\" />
     <Folder Include="Views\KCS\" />
+    <Folder Include="Views\TCLD\Report\" />
   </ItemGroup>
 </Project>

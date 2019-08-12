@@ -11,6 +11,7 @@
     <link href="../../assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
     <link href="../../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css" rel="stylesheet">
     <link href="../../dist/css/style.css" rel="stylesheet">
+    <link href="../../dist/css/TABLE_BORDERED.css" rel="stylesheet">    
     <link href="../../dist/css/custom.css" rel="stylesheet">
     <!-- This page CSS -->
     <link href="../../dist/css/pages/dashboard1.css" rel="stylesheet">
@@ -215,7 +216,7 @@
                                 <li><a href="#"><i class="material-icons">power_settings_new</i>Đăng Xuất</a></li>
                             </ul>
                         </li>
-                        <li><a href="">Trần Thị Thương <span class="new badge red" data-badge-caption="Chuyên Viên TCLĐ"></span></a></li>
+                        <li><a href="">Trần Thị Thương <span class="new badge red" data-badge-caption="Chuyên Viên CĐVT"></span></a></li>
                     </ul>
                     <!-- ============================================================== -->
                     <!-- Right topbar icon scss in header.scss -->
@@ -523,11 +524,23 @@
             </div>
         </div>
         <div class="fixed-action-btn" style="bottom: 20px; right: 20px;">
-            <a class="btn-floating btn-large teal"><i class="material-icons">menu</i></a>
+            <a class="btn-floating btn-large red"><i class="material-icons">settings</i></a>
             <ul>
-                <li><a class="btn-floating red"><i class="material-icons">assignment</i></a></li>
-                <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-                <li><a class="btn-floating blue"><i class="material-icons">add</i></a></li>
+                <li>
+                    <a class="btn-floating red tooltipped" data-position="left" data-tooltip="In báo cáo">
+                        <i class="material-icons">assignment</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn-floating green tooltipped" data-position="left" data-tooltip="Tải lên">
+                        <i class="material-icons">publish</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn-floating blue tooltipped" data-position="left" data-tooltip="Thêm">
+                        <i class="material-icons">add</i>
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="page-wrapper">
@@ -553,251 +566,251 @@
                                         <a class="waves-effect waves-light btn btn-round green">In báo cáo</a>
                                     </li>
                                 </ul>
-                            
-                            <div class="row table_container">
-                                <div class="col l12">
-                                    <link rel="stylesheet" href="css\style.css" />
-                                    <table class="table table-bordered striped table-responsive centered">
-                                        <thead>
-                                            <tr>
-                                                <th rowspan="2">STT</th>
-                                                <th rowspan="2">Ngày kiểm định</th>
-                                                <th rowspan="2">Đợt kiểm định</th>
-                                                <th rowspan="2">Mã đợt kiểm định</th>
-                                                <th rowspan="2">Nhân viên kiểm định</th>
-                                                <th rowspan="2">Đơn vị được kiểm định</th>
-                                                <th rowspan="2">Nội dung kiểm định</th>
-                                                <th colspan="4">Thiết bị kiểm định</th>
-                                                <th rowspan="2" style="min-width:140px">Chỉnh sửa</th>
-                                            </tr>
-                                            <tr>
-                                                <th>Mã thiết bị</th>
-                                                <th>Tên thiết bị</th>
-                                                <th>Số hiệu</th>
-                                                <th>Tình trạng</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>15/7/2019</td>
-                                                <td>002</td>
-                                                <td>KT02-19</td>
-                                                <td>Ngô Doãn Cường</td>
-                                                <td>Khai thác 3</td>
-                                                <td>Kiểm tra tình trạng thiết bị</td>
-                                                <td>BT</td>
-                                                <td>Băng tải khung</td>
-                                                <td>245</td>
-                                                <td>Tốt</td>
-                                                <td>
-                                                    <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
-                                                    <a href="#myedit" class="waves-effect waves-light btn btn-round blue modal-trigger">Sửa</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>15/7/2019</td>
-                                                <td>002</td>
-                                                <td>KT02-19</td>
-                                                <td>Ngô Doãn Cường</td>
-                                                <td>Khai thác 1</td>
-                                                <td>Kiểm tra tình trạng thiết bị</td>
-                                                <td>MC</td>
-                                                <td>Máng cào SGB 420/22</td>
-                                                <td>4032</td>
-                                                <td>Tốt</td>
-                                                <td>
-                                                    <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
-                                                    <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>15/7/2019</td>
-                                                <td>002</td>
-                                                <td>KT02-19</td>
-                                                <td>Ngô Doãn Cường</td>
-                                                <td>Khai thác 2</td>
-                                                <td>Kiểm tra tình trạng thiết bị</td>
-                                                <td>MX</td>
-                                                <td>Máy xúc lật</td>
-                                                <td>2080</td>
-                                                <td>Tốt</td>
-                                                <td>
-                                                    <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
-                                                    <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>15/7/2019</td>
-                                                <td>002</td>
-                                                <td>KT02-19</td>
-                                                <td>Ngô Doãn Cường</td>
-                                                <td>Khai thác 2</td>
-                                                <td>Kiểm tra tình trạng thiết bị</td>
-                                                <td>ST</td>
-                                                <td>Sàng tuyền</td>
-                                                <td>A3415</td>
-                                                <td>Đang sửa chữa</td>
-                                                <td>
-                                                    <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
-                                                    <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>15/7/2019</td>
-                                                <td>002</td>
-                                                <td>KT02-19</td>
-                                                <td>Ngô Doãn Cường</td>
-                                                <td>Khai thác 3</td>
-                                                <td>Kiểm tra tình trạng thiết bị</td>
-                                                <td>NK</td>
-                                                <td>Máy nén khí</td>
-                                                <td>600</td>
-                                                <td>Tốt</td>
-                                                <td>
-                                                    <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
-                                                    <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>6</td>
-                                                <td>15/7/2019</td>
-                                                <td>002</td>
-                                                <td>KT02-19</td>
-                                                <td>Ngô Doãn Cường</td>
-                                                <td>Khai thác 2</td>
-                                                <td>Kiểm tra tình trạng thiết bị</td>
-                                                <td>MB</td>
-                                                <td>Máy bơm</td>
-                                                <td>173</td>
-                                                <td>Đã hỏng</td>
-                                                <td>
-                                                    <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
-                                                    <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>7</td>
-                                                <td>15/4/2019</td>
-                                                <td>001</td>
-                                                <td>KT01-19</td>
-                                                <td>Bùi Văn Xuân</td>
-                                                <td>Khai thác 2</td>
-                                                <td>Kiểm tra tình trạng thiết bị</td>
-                                                <td>OTX</td>
-                                                <td>Ô tô trung xa, phục vụ</td>
-                                                <td>557</td>
-                                                <td>Tốt</td>
-                                                <td>
-                                                    <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
-                                                    <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>8</td>
-                                                <td>15/4/2019</td>
-                                                <td>001</td>
-                                                <td>KT01-19</td>
-                                                <td>Bùi Văn Xuân</td>
-                                                <td>Khai thác 2</td>
-                                                <td>Kiểm tra tình trạng thiết bị</td>
-                                                <td>XG</td>
-                                                <td>Xe goòng</td>
-                                                <td>72</td>
-                                                <td>Tốt</td>
-                                                <td>
-                                                    <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
-                                                    <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>9</td>
-                                                <td>15/4/2019</td>
-                                                <td>001</td>
-                                                <td>KT01-19</td>
-                                                <td>Bùi Văn Xuân</td>
-                                                <td>Khai thác 2</td>
-                                                <td>Kiểm tra tình trạng thiết bị</td>
-                                                <td>TD</td>
-                                                <td>Tàu điện</td>
-                                                <td>852</td>
-                                                <td>Đang sửa chữa</td>
-                                                <td>
-                                                    <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
-                                                    <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>10</td>
-                                                <td>15/4/2019</td>
-                                                <td>001</td>
-                                                <td>KT01-19</td>
-                                                <td>Bùi Văn Xuân</td>
-                                                <td>Khai thác 2</td>
-                                                <td>Kiểm tra tình trạng thiết bị</td>
-                                                <td>MG</td>
-                                                <td>Máy gạt</td>
-                                                <td>60</td>
-                                                <td>Tốt</td>
-                                                <td>
-                                                    <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
-                                                    <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+
+                                <div class="row table_container">
+                                    <div class="col l12">
+                                        <link rel="stylesheet" href="css\style.css" />
+                                        <table class="table table-bordered striped table-responsive centered">
+                                            <thead>
+                                                <tr>
+                                                    <th rowspan="2">STT</th>
+                                                    <th rowspan="2">Ngày kiểm định</th>
+                                                    <th rowspan="2">Đợt kiểm định</th>
+                                                    <th rowspan="2">Mã đợt kiểm định</th>
+                                                    <th rowspan="2">Nhân viên kiểm định</th>
+                                                    <th rowspan="2">Đơn vị được kiểm định</th>
+                                                    <th rowspan="2">Nội dung kiểm định</th>
+                                                    <th colspan="4">Thiết bị kiểm định</th>
+                                                    <th rowspan="2" style="min-width:140px"></th>
+                                                </tr>
+                                                <tr>
+                                                    <th>Mã thiết bị</th>
+                                                    <th>Tên thiết bị</th>
+                                                    <th>Số hiệu</th>
+                                                    <th>Tình trạng</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>15/7/2019</td>
+                                                    <td>002</td>
+                                                    <td>KT02-19</td>
+                                                    <td>Ngô Doãn Cường</td>
+                                                    <td>Khai thác 3</td>
+                                                    <td>Kiểm tra tình trạng thiết bị</td>
+                                                    <td>BT</td>
+                                                    <td>Băng tải khung</td>
+                                                    <td>245</td>
+                                                    <td>Tốt</td>
+                                                    <td>
+                                                        <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
+                                                        <a href="#myedit" class="waves-effect waves-light btn btn-round blue modal-trigger">Sửa</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>15/7/2019</td>
+                                                    <td>002</td>
+                                                    <td>KT02-19</td>
+                                                    <td>Ngô Doãn Cường</td>
+                                                    <td>Khai thác 1</td>
+                                                    <td>Kiểm tra tình trạng thiết bị</td>
+                                                    <td>MC</td>
+                                                    <td>Máng cào SGB 420/22</td>
+                                                    <td>4032</td>
+                                                    <td>Tốt</td>
+                                                    <td>
+                                                        <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
+                                                        <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>15/7/2019</td>
+                                                    <td>002</td>
+                                                    <td>KT02-19</td>
+                                                    <td>Ngô Doãn Cường</td>
+                                                    <td>Khai thác 2</td>
+                                                    <td>Kiểm tra tình trạng thiết bị</td>
+                                                    <td>MX</td>
+                                                    <td>Máy xúc lật</td>
+                                                    <td>2080</td>
+                                                    <td>Tốt</td>
+                                                    <td>
+                                                        <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
+                                                        <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>15/7/2019</td>
+                                                    <td>002</td>
+                                                    <td>KT02-19</td>
+                                                    <td>Ngô Doãn Cường</td>
+                                                    <td>Khai thác 2</td>
+                                                    <td>Kiểm tra tình trạng thiết bị</td>
+                                                    <td>ST</td>
+                                                    <td>Sàng tuyền</td>
+                                                    <td>A3415</td>
+                                                    <td>Đang sửa chữa</td>
+                                                    <td>
+                                                        <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
+                                                        <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>15/7/2019</td>
+                                                    <td>002</td>
+                                                    <td>KT02-19</td>
+                                                    <td>Ngô Doãn Cường</td>
+                                                    <td>Khai thác 3</td>
+                                                    <td>Kiểm tra tình trạng thiết bị</td>
+                                                    <td>NK</td>
+                                                    <td>Máy nén khí</td>
+                                                    <td>600</td>
+                                                    <td>Tốt</td>
+                                                    <td>
+                                                        <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
+                                                        <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>15/7/2019</td>
+                                                    <td>002</td>
+                                                    <td>KT02-19</td>
+                                                    <td>Ngô Doãn Cường</td>
+                                                    <td>Khai thác 2</td>
+                                                    <td>Kiểm tra tình trạng thiết bị</td>
+                                                    <td>MB</td>
+                                                    <td>Máy bơm</td>
+                                                    <td>173</td>
+                                                    <td>Đã hỏng</td>
+                                                    <td>
+                                                        <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
+                                                        <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>15/4/2019</td>
+                                                    <td>001</td>
+                                                    <td>KT01-19</td>
+                                                    <td>Bùi Văn Xuân</td>
+                                                    <td>Khai thác 2</td>
+                                                    <td>Kiểm tra tình trạng thiết bị</td>
+                                                    <td>OTX</td>
+                                                    <td>Ô tô trung xa, phục vụ</td>
+                                                    <td>557</td>
+                                                    <td>Tốt</td>
+                                                    <td>
+                                                        <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
+                                                        <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>15/4/2019</td>
+                                                    <td>001</td>
+                                                    <td>KT01-19</td>
+                                                    <td>Bùi Văn Xuân</td>
+                                                    <td>Khai thác 2</td>
+                                                    <td>Kiểm tra tình trạng thiết bị</td>
+                                                    <td>XG</td>
+                                                    <td>Xe goòng</td>
+                                                    <td>72</td>
+                                                    <td>Tốt</td>
+                                                    <td>
+                                                        <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
+                                                        <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>15/4/2019</td>
+                                                    <td>001</td>
+                                                    <td>KT01-19</td>
+                                                    <td>Bùi Văn Xuân</td>
+                                                    <td>Khai thác 2</td>
+                                                    <td>Kiểm tra tình trạng thiết bị</td>
+                                                    <td>TD</td>
+                                                    <td>Tàu điện</td>
+                                                    <td>852</td>
+                                                    <td>Đang sửa chữa</td>
+                                                    <td>
+                                                        <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
+                                                        <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>15/4/2019</td>
+                                                    <td>001</td>
+                                                    <td>KT01-19</td>
+                                                    <td>Bùi Văn Xuân</td>
+                                                    <td>Khai thác 2</td>
+                                                    <td>Kiểm tra tình trạng thiết bị</td>
+                                                    <td>MG</td>
+                                                    <td>Máy gạt</td>
+                                                    <td>60</td>
+                                                    <td>Tốt</td>
+                                                    <td>
+                                                        <a href="#myaleart" class="waves-effect waves-light btn btn-round red modal-trigger">Xóa</a>
+                                                        <a class="waves-effect waves-light btn btn-round blue">Sửa</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- ============================================================== -->
+                    <!-- Container fluid scss in scafholding.scss -->
+                    <!-- ============================================================== -->
                 </div>
-                <!-- ============================================================== -->
-                <!-- Container fluid scss in scafholding.scss -->
-                <!-- ============================================================== -->
             </div>
+            <!-- ============================================================== -->
+            <!-- Page wrapper scss in scafholding.scss -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Right Sidebar -->
+            <!-- ============================================================== -->
+            <a href="#" data-target="right-slide-out"
+               class="sidenav-trigger right-side-toggle btn-floating btn-large waves-effect waves-light red">
+                <i class="material-icons">settings</i>
+            </a>
+            <div class="chat-windows"></div>
+            <!-- ============================================================== -->
+            <!-- Right Sidebar -->
+            <!-- ============================================================== -->
         </div>
         <!-- ============================================================== -->
-        <!-- Page wrapper scss in scafholding.scss -->
+        <!-- All Required js -->
         <!-- ============================================================== -->
+        <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
+        <script src="../../dist/js/materialize.min.js"></script>
+        <script src="../../assets/libs/perfect-scrollbar/dist/js/perfect-scrollbar.jquery.min.js"></script>
         <!-- ============================================================== -->
-        <!-- Right Sidebar -->
+        <!-- Apps -->
         <!-- ============================================================== -->
-        <a href="#" data-target="right-slide-out"
-           class="sidenav-trigger right-side-toggle btn-floating btn-large waves-effect waves-light red">
-            <i class="material-icons">settings</i>
-        </a>
-        <div class="chat-windows"></div>
+        <script src="../../dist/js/app.js"></script>
+        <script src="../../dist/js/app.init.js"></script>
+        <script src="../../dist/js/app-style-switcher.js"></script>
         <!-- ============================================================== -->
-        <!-- Right Sidebar -->
+        <!-- Custom js -->
         <!-- ============================================================== -->
-    </div>
-    <!-- ============================================================== -->
-    <!-- All Required js -->
-    <!-- ============================================================== -->
-    <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="../../dist/js/materialize.min.js"></script>
-    <script src="../../assets/libs/perfect-scrollbar/dist/js/perfect-scrollbar.jquery.min.js"></script>
-    <!-- ============================================================== -->
-    <!-- Apps -->
-    <!-- ============================================================== -->
-    <script src="../../dist/js/app.js"></script>
-    <script src="../../dist/js/app.init.js"></script>
-    <script src="../../dist/js/app-style-switcher.js"></script>
-    <!-- ============================================================== -->
-    <!-- Custom js -->
-    <!-- ============================================================== -->
-    <script src="../../dist/js/custom.min.js"></script>
-    <!-- ============================================================== -->
-    <!-- This page plugin js -->
-    <!-- ============================================================== -->
-    <script src="../../assets/libs/chartist/dist/chartist.min.js"></script>
-    <script src="../../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="../../assets/extra-libs/sparkline/sparkline.js"></script>
-    <script src="../../dist/js/pages/dashboards/dashboard1.js"></script>
+        <script src="../../dist/js/custom.min.js"></script>
+        <!-- ============================================================== -->
+        <!-- This page plugin js -->
+        <!-- ============================================================== -->
+        <script src="../../assets/libs/chartist/dist/chartist.min.js"></script>
+        <script src="../../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+        <script src="../../assets/extra-libs/sparkline/sparkline.js"></script>
+        <script src="../../dist/js/pages/dashboards/dashboard1.js"></script>
 </body>
 
 </html>
